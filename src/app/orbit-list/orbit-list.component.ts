@@ -6,7 +6,7 @@ import { Satellite } from '../satellite';
   templateUrl: './orbit-list.component.html',
   styleUrls: ['./orbit-list.component.css']
 })
-//@Input() satellites: Satellite[];  
+
 export class OrbitListComponent implements OnInit {
 
   @Input() satellites: Satellite[];
